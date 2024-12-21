@@ -11,8 +11,43 @@
     </header>
 
     <main>
-        <p>If you have any questions, please contact us at contact@techcon.com.</p>
+        <h2>Contact TechCon Team</h2>
+        <p>If you have any questions, please fill out the form below to get in touch with us:</p>
+    
+        <form action="submit_contact.php" method="POST">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required>
+            <br>
+    
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required>
+            <br>
+    
+            <label for="message">Your Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            <br>
+    
+            <button type="submit">Send Message</button>
+        </form>
+
+        <section>
+            <h2>Contact Information</h2>
+            <p>If you have any questions, feel free to reach us at:</p>
+            <ul>
+                <li>Email: contact@techcon.com</li>
+                <li>Phone: +1 234 567 890</li>
+                <li>Twitter: <a href="https://twitter.com/techcon">TechCon Twitter</a></li>
+                <li>LinkedIn: <a href="https://linkedin.com/company/techcon">TechCon LinkedIn</a></li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Our Location</h2>
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.123456!2d-74.0070159!3d40.712776!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259abda0d5b17%3A0x9a20a3c999b5b637!2sTechCon%20Center!5e0!3m2!1sen!2sus!4v1578695221230" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </section>
     </main>
+    
 
     <footer>
         <p>&copy; 2024 TechCon. All rights reserved.</p>
